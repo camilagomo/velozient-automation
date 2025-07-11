@@ -48,4 +48,4 @@ This document includes two test cases for the public booking form on [https://au
 - User remains on the homepage
 - No rooms are listed
 - "Book now" button is not shown
-- Application may break or throw a React error (e.g., minified error #418)
+- Application may break or throw a React error (minified status code 418)
