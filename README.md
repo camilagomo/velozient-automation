@@ -1,4 +1,4 @@
-# 🧪 Velozient Cypress Automation
+# Cypress Automation
 
 Automated end-to-end testing project using [Cypress](https://www.cypress.io/) for the application available at https://automationintesting.online.
 
