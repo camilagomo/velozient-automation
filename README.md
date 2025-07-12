@@ -25,7 +25,7 @@ velozient-automation/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 Make sure you have [Node.js](https://nodejs.org/) installed.
 
@@ -63,7 +63,7 @@ npx cypress run --spec "cypress/e2e/booking_invalid.cy.js"
 
 ---
 
-## 📋 Included Files
+## Included Files
 
 ### ✅ `TEST_CASES.md`
 - TC_BOOK_001: Valid room booking
@@ -75,7 +75,7 @@ npx cypress run --spec "cypress/e2e/booking_invalid.cy.js"
 
 ---
 
-## ✅ Continuous Integration
+## Continuous Integration
 
 This project uses **GitHub Actions** to automatically run Cypress E2E tests on every push to the repository.
 
