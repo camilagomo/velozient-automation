@@ -75,39 +75,26 @@ npx cypress run --spec "cypress/e2e/booking_invalid.cy.js"
 
 ---
 
-## ⚙️ GitHub Actions CI
+## ✅ Continuous Integration
 
-To enable test automation in your GitHub pipeline, add this to `.github/workflows/cypress.yml`:
-
-```yaml
-name: Run Cypress Tests
-
-on:
-  push:
-    branches:
-      - main
-  pull_request:
-
-jobs:
-  cypress-run:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout repo
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: 18
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Run Cypress tests
-        run: npx cypress run
-```
+This project uses **GitHub Actions** to automatically run Cypress E2E tests on every push to the repository.
 
 ---
+
+### 🔄 CI/CD Pipeline
+
+- 📁 The pipeline is configured in the `.github/workflows/` directory.  
+- 🚀 On every push to the `main` branch, Cypress tests are executed automatically.  
+- 🛑 If any test fails, the execution stops and the failure is shown in the **GitHub Actions** panel.
+
+---
+
+### 📌 Latest Execution Status
+
+[![Cypress Tests](https://github.com/camilagomo/velozient-automation/actions/workflows/cypress.yml/badge.svg)](https://github.com/camilagomo/velozient-automation/actions)
+
+🔗 [View pipeline execution](https://github.com/camilagomo/velozient-automation/actions/runs/16232119475/job/45837107112)
+
 
 ## 👩‍💻 Author
 
